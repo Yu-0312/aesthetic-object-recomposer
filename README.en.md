@@ -11,7 +11,7 @@ Turn ordinary photos into polished Instagram-ready editorial images, then create
 - Produces a matched three-image set by default:
   1. **Editorial:** clean lifestyle photography with natural window light and magazine styling.
   2. **Kawaii Clean:** an overlay-only Q-style character treatment based directly on the Editorial result.
-  3. **Kawaii Story:** the clean character version plus short captions, dialogue, arrows, and handwritten annotations.
+  3. **Kawaii Story:** the clean character version plus lively speech-bubble lettering, dialogue, arrows, and small story-linked illustrated props.
 - Locks crop, camera, placement, lighting, shadows, background, and depth of field across all three images.
 - Uses deterministic post-production typesetting when exact Chinese text is required.
 - Guards against fake text, floating objects, duplicate food, excessive orange grading, HDR, watermarks, and social-media UI.
@@ -40,12 +40,12 @@ editorial lifestyle composition, then create a matched kawaii doodle version.
 3. Select recomposition strength and one dominant composition.
 4. Generate the clean Editorial image first.
 5. Use the approved Editorial image as the immutable base for Kawaii Clean.
-6. Use the approved Kawaii Clean image as the immutable base for Kawaii Story captions.
+6. Use the approved Kawaii Clean image as the immutable base for lively captions and a few story-supporting doodle props.
 7. Validate object fidelity, grounding, shadows, depth, text accuracy, and set consistency.
 
 ## Comparisons
 
-Each example shows **Original → Editorial → Kawaii**.
+Each example shows **Original → Editorial → Kawaii Clean → Kawaii Story**.
 
 ![Drink and laptop](examples/drink-laptop-comparison.png)
 ![Two cups](examples/two-cups-comparison.png)
@@ -55,12 +55,12 @@ Each example shows **Original → Editorial → Kawaii**.
 ![Taco feast](examples/taco-comparison.png)
 ![Ramen night](examples/ramen-comparison.png)
 ![Curry rice](examples/curry-comparison.png)
-![Ham and egg breakfast](examples/ham-breakfast-comparison-v2.png)
+![Ham and egg breakfast](examples/ham-breakfast-comparison.png)
 
 ## Notes
 
 - Very small labels and trademarks may not be reproduced perfectly by image models.
-- Kawaii overlays should remain sparse and must not obscure food texture or product labels.
+- Kawaii lettering and illustrated props must not obscure food texture or product labels.
 - People are not doodled by default.
 - Example images are included only to demonstrate the transformation workflow.
 

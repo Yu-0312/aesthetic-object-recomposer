@@ -39,11 +39,29 @@ Do not copy text from reference images. Write original captions that fit the sup
 
 ## Typography
 
-- Use casual hand-drawn lettering with slightly irregular baselines.
-- Default to white or cream with a subtle dark shadow or outline.
-- Use one source-derived accent color for emphasis marks only.
-- Combine at most two sizes and one lettering style.
-- Avoid heavy display fonts, dense bubbles, vertical typesetting, and long paragraphs.
+- Use lively hand-drawn scrapbook lettering with irregular baselines, playful rotation, and visibly varied character size.
+- Build a clear hierarchy: one bold comic-style hero phrase, one smaller handwritten reaction, and an optional tiny scene note.
+- Use cream or white as the reading base, plus 2–4 source-derived accent colors for key words, punctuation, stars, music notes, and emphasis marks.
+- Add a thick contrasting outline or sticker-like border so every phrase remains readable over photography.
+- Mix filled bubble lettering, loose handwritten notes, and compact speech balloons while keeping the set visually coherent.
+- Short English exclamations such as `WOW!`, `YUM!`, `GO!`, or `HI!` may be combined with exact Chinese copy when they strengthen the character action.
+- Allow rounded speech bubbles, burst shapes, thought clouds, curved arrows, dotted paths, sparkles, blush marks, and motion lines.
+- Avoid rigid typesetting, corporate fonts, dense rectangular text boxes, long paragraphs, or perfectly aligned captions.
+
+## Reference-energy target
+
+- Match the cheerful social-post energy of kawaii food doodle references: expressive faces first, playful captions second, decorative marks third.
+- Captions should feel physically connected to the speaking object through a tail, arrow, pose, or nearby action mark.
+- Favor asymmetry and rhythm: one large phrase, one medium reaction, several tiny marks—not three identical labels.
+- Keep overlays handmade and spontaneous, but make all Chinese glyphs deterministic and exact.
+
+## Story-prop illustration
+
+- When the scene supports it, add 1–2 small illustrated props that turn the caption into an action: chef hat, spoon, fork, flag, headband, instrument, menu, alarm clock, shopping bag, or tiny costume accessory.
+- Attach every prop to an existing character or place it directly beside that character. The prop must explain the joke or action rather than act as unrelated decoration.
+- Match the existing doodle line weight, outline color, blush palette, and simplified perspective.
+- Keep prop coverage below 10% of the frame and never hide the photographed object's identifying surface, label, or food texture.
+- Do not add a full new photographed object. Story props are clearly hand-drawn overlays only.
 
 ## Accuracy strategy
 

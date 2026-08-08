@@ -11,7 +11,7 @@
 - 預設輸出一組相互配對的三張圖片：
   1. **Editorial**：乾淨、自然、具有窗光與雜誌感的網美攝影版。
   2. **Kawaii Clean**：直接在 Editorial 成品上加入 Q 版表情、短手腳與少量塗鴉。
-  3. **Kawaii Story**：沿用純 Q 版，再加入短中文旁白、角色對話、箭頭與手繪註記。
+  3. **Kawaii Story**：沿用純 Q 版，再加入氣泡字、短中文旁白、角色對話、箭頭，以及與情節連動的小道具插畫。
 - 三個階段皆鎖定裁切、鏡位、物件位置、光線、陰影與景深，避免構圖漂移。
 - 精確中文優先使用後製排字，避免 AI 生成亂碼。
 - 自動避免假文字、浮空物件、重複餐點、過度橘色、HDR 與社群介面。
@@ -47,12 +47,12 @@ cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 3. 選擇適合的構圖與重排強度。
 4. 先生成乾淨的 Editorial 版本。
 5. 以 Editorial 圖片為底圖，只加入 Q 版 overlay。
-6. 以純 Q 版為底圖，只加入短句、箭頭與旁白。
+6. 以純 Q 版為底圖，加入活潑氣泡字、箭頭、旁白與少量角色道具插畫。
 7. 檢查物件完整性、接觸陰影、景深、文字正確性與三張圖片的一致性。
 
 ## 前後對比
 
-每張圖依序為：**原圖 → 網美重排版 → Q 版**。
+每張圖依序為：**原圖 → 網美重排版 → 純 Q 版 → 氣泡文字故事版**。
 
 ### 飲料與筆電
 
@@ -88,7 +88,7 @@ cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 
 ### 火腿蛋早餐
 
-![Ham and egg breakfast comparison](examples/ham-breakfast-comparison-v2.png)
+![Ham and egg breakfast comparison](examples/ham-breakfast-comparison.png)
 
 ## 檔案結構
 
@@ -108,7 +108,7 @@ cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 ## 注意事項
 
 - 圖像生成模型仍可能無法百分之百重現非常細小的文字或商標。
-- Q 版圖層應保持稀疏，不應遮住食品質感或產品標籤。
+- Q 版圖層應保持清楚有節奏；氣泡字與道具插畫不應遮住食品質感或產品標籤。
 - 如果原圖包含人物，預設不在人物臉部加塗鴉。
 - 範例圖片僅用於展示 Skill 的圖像轉換流程。
 
