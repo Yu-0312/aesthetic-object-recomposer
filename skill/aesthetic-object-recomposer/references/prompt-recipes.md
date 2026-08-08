@@ -2,12 +2,13 @@
 
 Build prompts in this order: edit intent, protected inventory, composition, environment, light, camera, finish, exclusions.
 
-## Default paired workflow
+## Default three-version workflow
 
 1. Generate **A — Editorial** with one of the photographic recipes below.
 2. Confirm that the objects, composition, lighting, and crop pass the quality gate.
 3. Use A as the input image for **B — Kawaii** with the overlay-only recipe below.
-4. Compare A and B by overlay or rapid alternation. Outside illustrated pixels, the scene must remain visually identical.
+4. Use B as the input image for **C — Kawaii Story** with the caption-only recipe below.
+5. Compare all versions by overlay or rapid alternation. Outside illustrated and caption pixels, the scene must remain visually identical.
 
 ## Standard recomposition
 
@@ -29,6 +30,10 @@ Build prompts in this order: edit intent, protected inventory, composition, envi
 
 > Use the supplied approved editorial image as an immutable photographic base. Do not change the canvas, crop, camera, perspective, object placement, size, rotation, overlap, background, lighting, shadow, color grade, texture, focus, or depth of field. Add sparse original Q版 hand-drawn overlays only to [SELECTED OBJECTS]: simple expressive eyes, one small mouth, optional blush, and at most two short arms and legs attached to believable silhouette edges. Show [ACTION/EMOTION] with a few white or source-colored motion lines, sparkles, musical notes, tiny props, or one very short decorative word. Keep illustration coverage below 18% of the frame and below 25% of each object. Preserve every label, logo, control, food texture, material, and silhouette. This is an overlay edit, not a regeneration. No object movement, replacement, duplication, removal, full-cartoon conversion, copyrighted character, dense handwriting, fake label, watermark, UI, grid, or tutorial annotation.
 
+## Kawaii storytelling third pass
+
+> Use the supplied approved Kawaii Clean image as an immutable base. Preserve every photographic pixel and all existing character faces, limbs, props, and symbols. Add only the planned storytelling layer: [CAPTION 1] near [ANCHOR 1], [CAPTION 2] near [ANCHOR 2], and optionally [CAPTION 3] near [ANCHOR 3]. Use casual handwritten lettering, short curved arrows or speech tails, and a few emphasis marks. Keep each Chinese caption to 4–12 characters or each English caption to 1–5 words. Place text only in calm negative space; never cover food texture, product labels, faces, hands, controls, or hero silhouettes. Keep total text coverage below 16% of the frame. Render all requested text exactly as supplied. No new objects, new characters, changed expressions, moved doodles, dense paragraphs, fake labels, watermark, social-media UI, composition grid, or tutorial diagram.
+
 ## Targeted corrections
 
 - Object drift: `Restore the exact source object design, count, materials, colors, labels, and proportions; change only placement and scene styling.`
@@ -41,3 +46,5 @@ Build prompts in this order: edit intent, protected inventory, composition, envi
 - Excess doodles: `Remove half the illustration marks; keep one face and one action per intended hero while restoring clear product and food texture.`
 - Awkward character anatomy: `Reattach short doodle limbs to believable silhouette edges and remove all detached or duplicate facial features.`
 - Pair drift: `Restore the approved editorial base exactly and reapply only the Q版 overlay; no photographic pixel geometry, lighting, texture, or object placement may change.`
+- Caption errors: `Remove every incorrect glyph and typeset the supplied captions exactly; preserve the approved Kawaii Clean image unchanged.`
+- Busy story version: `Keep only the three most meaningful captions and move them into calm negative space; restore unobstructed food and product details.`

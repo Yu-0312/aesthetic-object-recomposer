@@ -1,6 +1,6 @@
 # Kawaii Routing
 
-Treat kawaii styling as a second pass over an already approved photographic recomposition. The default deliverable is a clean editorial image plus its matched Q版 variant.
+Treat kawaii styling as two passes over an approved photographic recomposition: a clean character overlay, followed by an optional storytelling overlay with captions.
 
 ## Use Kawaii Doodle Character mode when
 
@@ -19,20 +19,22 @@ Good candidates: bread, buns, fruit, smoothies, coffee cups, ice cream, noodles,
 - Doodles would hide labels, controls, food texture, or structural details.
 - The user asks for natural, premium, minimal, cinematic, editorial, or realistic styling.
 
-## Pairing decision
+## Output decision
 
-- Default: make both the Photographic Editorial base and a matched Kawaii Overlay variant.
+- Default: make A Photographic Editorial, B Kawaii Clean, and C Kawaii Story.
 - If the subject is especially suitable for Q版, give B a clear action and slightly richer doodles while retaining the same photo.
 - If the subject is serious or precision-led, still make B when paired output is requested or implied, but use an ultra-light treatment: one subtle face or a few reaction marks without covering controls, labels, or structure.
-- Make only A or only B when the user explicitly requests a single version.
+- Make fewer versions only when the user explicitly requests them.
 
-## Pair-lock requirements
+## Set-lock requirements
 
 - Finish and approve A before creating B.
 - Use A as the direct editing source for B.
+- Finish and approve B before creating C; use B as C's source.
 - Pixel geometry outside doodle regions should remain unchanged: identical crop, object placement, lighting, shadows, texture, background, and blur.
 - Never regenerate B from scratch with merely a similar prompt.
 - If B causes object drift, restore A and repeat only the overlay pass.
+- If C causes object or doodle drift, restore B and repeat only the caption pass.
 
 ## Kawaii visual grammar
 
@@ -45,6 +47,7 @@ Good candidates: bread, buns, fruit, smoothies, coffee cups, ice cream, noodles,
 - Keep illustration coverage below roughly 18% of the frame and below 25% of any hero object.
 - Preserve logos and labels; place facial features around them rather than on top of them.
 - Keep text short. Prefer one or two words such as `HI`, `WOW`, `YUM`, `OK`, or no text. Avoid long generated handwriting.
+- Reserve multi-caption storytelling for version C and follow [text-captioning.md](text-captioning.md).
 
 ## Never
 

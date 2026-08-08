@@ -1,6 +1,6 @@
 # Aesthetic Object Recomposer
 
-Turn ordinary photos of food, drinks, products, and tabletop objects into polished Instagram-ready editorial images, then create a matched kawaii doodle version using the exact same composition.
+Turn ordinary photos into polished Instagram-ready editorial images, then create matched clean-kawaii and captioned-story variants using the exact same composition.
 
 [中文 README](README.md)
 
@@ -8,10 +8,12 @@ Turn ordinary photos of food, drinks, products, and tabletop objects into polish
 
 - Preserves object identity, count, materials, colors, labels, and recognizable details.
 - Supports diagonal, triangle, S-curve, L-shape, table-corner, centered, rule-of-thirds, and negative-space compositions.
-- Produces a matched pair by default:
+- Produces a matched three-image set by default:
   1. **Editorial:** clean lifestyle photography with natural window light and magazine styling.
-  2. **Kawaii:** an overlay-only Q-style character treatment based directly on the Editorial result.
-- Locks crop, camera, placement, lighting, shadows, background, and depth of field between paired images.
+  2. **Kawaii Clean:** an overlay-only Q-style character treatment based directly on the Editorial result.
+  3. **Kawaii Story:** the clean character version plus short captions, dialogue, arrows, and handwritten annotations.
+- Locks crop, camera, placement, lighting, shadows, background, and depth of field across all three images.
+- Uses deterministic post-production typesetting when exact Chinese text is required.
 - Guards against fake text, floating objects, duplicate food, excessive orange grading, HDR, watermarks, and social-media UI.
 
 ## Installation
@@ -37,8 +39,9 @@ editorial lifestyle composition, then create a matched kawaii doodle version.
 2. Lock identity-defining invariants.
 3. Select recomposition strength and one dominant composition.
 4. Generate the clean Editorial image first.
-5. Use the approved Editorial image as the immutable base for the Kawaii overlay.
-6. Validate object fidelity, grounding, shadows, depth, and pair consistency.
+5. Use the approved Editorial image as the immutable base for Kawaii Clean.
+6. Use the approved Kawaii Clean image as the immutable base for Kawaii Story captions.
+7. Validate object fidelity, grounding, shadows, depth, text accuracy, and set consistency.
 
 ## Comparisons
 
@@ -52,7 +55,7 @@ Each example shows **Original → Editorial → Kawaii**.
 ![Taco feast](examples/taco-comparison.png)
 ![Ramen night](examples/ramen-comparison.png)
 ![Curry rice](examples/curry-comparison.png)
-![Ham and egg breakfast](examples/ham-breakfast-comparison.png)
+![Ham and egg breakfast](examples/ham-breakfast-comparison-v2.png)
 
 ## Notes
 

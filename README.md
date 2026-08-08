@@ -1,6 +1,6 @@
 # Aesthetic Object Recomposer
 
-把普通照片中的食物、飲料、產品與桌面物件，重新排列成適合 Instagram 的生活風格攝影，並額外產出相同構圖的 Q 版角色塗鴉版本。
+把普通照片中的食物、飲料、產品與桌面物件，重新排列成適合 Instagram 的生活風格攝影，再產出相同構圖的純 Q 版與文字故事版。
 
 [English README](README.en.md)
 
@@ -8,10 +8,12 @@
 
 - 保留原物件的種類、數量、材質、顏色、標籤與辨識特徵。
 - 支援對角線、三角形、S 型、L 型、桌角、置中、三分法與留白構圖。
-- 預設輸出一組相互配對的圖片：
+- 預設輸出一組相互配對的三張圖片：
   1. **Editorial**：乾淨、自然、具有窗光與雜誌感的網美攝影版。
-  2. **Kawaii**：直接在 Editorial 成品上加入 Q 版表情、短手腳與少量塗鴉。
-- Q 版階段鎖定裁切、鏡位、物件位置、光線、陰影與景深，避免兩張圖構圖漂移。
+  2. **Kawaii Clean**：直接在 Editorial 成品上加入 Q 版表情、短手腳與少量塗鴉。
+  3. **Kawaii Story**：沿用純 Q 版，再加入短中文旁白、角色對話、箭頭與手繪註記。
+- 三個階段皆鎖定裁切、鏡位、物件位置、光線、陰影與景深，避免構圖漂移。
+- 精確中文優先使用後製排字，避免 AI 生成亂碼。
 - 自動避免假文字、浮空物件、重複餐點、過度橘色、HDR 與社群介面。
 
 ## 安裝
@@ -45,7 +47,8 @@ cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 3. 選擇適合的構圖與重排強度。
 4. 先生成乾淨的 Editorial 版本。
 5. 以 Editorial 圖片為底圖，只加入 Q 版 overlay。
-6. 檢查物件完整性、接觸陰影、景深與兩張圖片的一致性。
+6. 以純 Q 版為底圖，只加入短句、箭頭與旁白。
+7. 檢查物件完整性、接觸陰影、景深、文字正確性與三張圖片的一致性。
 
 ## 前後對比
 
@@ -85,7 +88,7 @@ cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 
 ### 火腿蛋早餐
 
-![Ham and egg breakfast comparison](examples/ham-breakfast-comparison.png)
+![Ham and egg breakfast comparison](examples/ham-breakfast-comparison-v2.png)
 
 ## 檔案結構
 

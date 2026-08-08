@@ -1,6 +1,6 @@
 ---
 name: aesthetic-object-recomposer
-description: Recompose objects from an uploaded photo into polished, Instagram-ready editorial lifestyle images while preserving each object's identity. Use when Codex should rearrange food, drinks, cameras, books, tableware, furniture, decor, or products into diagonal, triangular, S-curve, L-shape, table-corner, centered, rule-of-thirds, or negative-space compositions; by default deliver a matched pair consisting of a clean photographic editorial version and the same recomposed scene enhanced with cute kawaii doodle characters.
+description: Recompose objects from an uploaded photo into polished, Instagram-ready editorial lifestyle images while preserving each object's identity. Use when Codex should rearrange food, drinks, cameras, books, tableware, furniture, decor, or products into deliberate editorial compositions; by default deliver a matched three-image set consisting of a clean photographic version, a kawaii doodle-character version, and a kawaii storytelling version with short captions, dialogue, arrows, and annotations.
 ---
 
 # Aesthetic Object Recomposer
@@ -16,21 +16,23 @@ Create the finished image whenever an image-editing or image-generation tool is 
    - **Standard:** preserve objects but rebuild their arrangement and camera framing.
    - **Scene rebuild:** preserve objects while placing them in a new warm editorial interior. Use only when the user requests a new scene or the source background is unusable.
 4. Select one composition from [composition-system.md](references/composition-system.md). Do not mix several diagrams without a clear dominant structure.
-5. Default to a **matched two-image set** unless the user explicitly requests one version only:
+5. Default to a **matched three-image set** unless the user explicitly requests fewer versions:
    - **A — Photographic Editorial:** the finished clean Instagram-ready recomposition.
-   - **B — Kawaii Overlay:** the exact same recomposed scene with controlled Q版 doodle characters added.
+   - **B — Kawaii Clean:** the exact same recomposed scene with controlled Q版 characters and minimal symbols.
+   - **C — Kawaii Story:** version B plus short captions, dialogue, arrows, and handwritten annotations.
 6. Apply the photographic direction in [visual-language.md](references/visual-language.md), then read [kawaii-routing.md](references/kawaii-routing.md) for the second-pass illustration treatment.
-7. Compile the paired edit requests using [prompt-recipes.md](references/prompt-recipes.md). State the object inventory, invariants, composition, and pair-lock requirements explicitly.
-8. Generate version A first. Generate version B by editing A, not by independently regenerating from the original. Default to portrait 4:5; use 9:16 for stories and 1:1 for square posts.
-9. Evaluate object fidelity, physical plausibility, composition, lighting, depth, pair consistency, illustration integration, and unwanted additions. Make one targeted correction if a major check fails.
+7. Read [text-captioning.md](references/text-captioning.md) before creating version C. Compile all edit requests using [prompt-recipes.md](references/prompt-recipes.md).
+8. Generate A first, B by editing A, then C by editing B. Never regenerate later versions from the original. Default to portrait 4:5; use 9:16 for stories and 1:1 for square posts.
+9. Evaluate object fidelity, physical plausibility, composition, lighting, depth, set consistency, illustration integration, caption accuracy, and unwanted additions. Make one targeted correction if a major check fails.
 
-## Paired-output lock
+## Matched-set lock
 
-- A and B must share the same canvas, crop, camera angle, lens perspective, object positions, scale, overlap, lighting, shadows, background, color grade, and depth of field.
+- A, B, and C must share the same canvas, crop, camera angle, lens perspective, object positions, scale, overlap, lighting, shadows, background, color grade, and depth of field.
 - B may add only faces, short limbs, tiny props, motion marks, sparkles, and very short decorative lettering.
-- B must not move, resize, replace, duplicate, remove, or restyle any photographed object.
-- When image editing supports a reference/base image, always use the approved A image as B's source.
-- Name or label outputs clearly as `editorial` and `kawaii` so the pair is easy to compare.
+- C may add only planned captions, dialogue, arrows, brackets, and emphasis marks to B.
+- B and C must not move, resize, replace, duplicate, remove, or restyle any photographed object.
+- Use approved A as B's source and approved B as C's source.
+- Name outputs clearly as `editorial`, `kawaii-clean`, and `kawaii-story`.
 
 ## Staging Rules
 
@@ -68,6 +70,7 @@ Accept only when all major checks pass:
 - Highlights retain texture on glass, ceramics, food, paper, and wood.
 - No grid, annotation, watermark, social-media UI, gibberish text, or unexpected object appears.
 - When Kawaii mode is selected, the face, limbs, and props feel attached to the intended object and the photograph remains dominant.
-- The paired images align perfectly when overlaid; only the intended Q版 marks differ.
+- Version C uses readable, intentional captions with no gibberish, accidental text, or subject obstruction.
+- All three images align perfectly when overlaid; only the intended doodles and captions differ.
 
 Correct only the failed dimension. Do not replace a successful arrangement wholesale.
