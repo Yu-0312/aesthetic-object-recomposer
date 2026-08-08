@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aesthetic Object Recomposer"
+  short_description: "Create matched editorial and kawaii object-photo pairs"
+  default_prompt: "Use $aesthetic-object-recomposer to rearrange the objects in my photo, then deliver a matched clean editorial version and a Q版 doodle-overlay version."
