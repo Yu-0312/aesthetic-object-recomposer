@@ -11,7 +11,7 @@ Turn ordinary photos into polished Instagram-ready editorial images, then create
 - Produces a matched three-image set by default:
   1. **Editorial:** clean lifestyle photography with natural window light and magazine styling.
   2. **Kawaii Clean:** an overlay-only Q-style character treatment based directly on the Editorial result.
-  3. **Kawaii Story:** the clean character version plus lively speech-bubble lettering, dialogue, arrows, and small story-linked illustrated props.
+  3. **Kawaii Story:** the clean character version plus bold white hand lettering, transparent white-outline speech bubbles, emotion marks, and small story-linked illustrations.
 - Locks crop, camera, placement, lighting, shadows, background, and depth of field across all three images.
 - Uses deterministic post-production typesetting when exact Chinese text is required.
 - Guards against fake text, floating objects, duplicate food, excessive orange grading, HDR, watermarks, and social-media UI.

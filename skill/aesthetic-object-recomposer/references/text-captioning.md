@@ -41,11 +41,12 @@ Do not copy text from reference images. Write original captions that fit the sup
 
 - Use lively hand-drawn scrapbook lettering with irregular baselines, playful rotation, and visibly varied character size.
 - Build a clear hierarchy: one bold comic-style hero phrase, one smaller handwritten reaction, and an optional tiny scene note.
-- Use cream or white as the reading base, plus 2–4 source-derived accent colors for key words, punctuation, stars, music notes, and emphasis marks.
-- Add a thick contrasting outline or sticker-like border so every phrase remains readable over photography.
-- Mix filled bubble lettering, loose handwritten notes, and compact speech balloons while keeping the set visually coherent.
+- Make white the dominant lettering and bubble color. Use thick white hand-drawn strokes with only a thin dark shadow or keyline for contrast.
+- Keep speech bubbles transparent: draw an irregular white outline around the text rather than placing text on a cream, colored, or solid rectangular sticker.
+- Use source-derived accent colors mainly for nearby character illustrations and tiny punctuation—not for the main caption fill.
+- Mix white bubble lettering, loose white handwritten notes, and compact white speech balloons while keeping the set visually coherent.
 - Short English exclamations such as `WOW!`, `YUM!`, `GO!`, or `HI!` may be combined with exact Chinese copy when they strengthen the character action.
-- Allow rounded speech bubbles, burst shapes, thought clouds, curved arrows, dotted paths, sparkles, blush marks, and motion lines.
+- Allow rounded speech bubbles, hand-drawn circles, irregular speech frames, thought clouds, curved arrows, dotted paths, sparkles, blush marks, and motion lines. Keep their outlines white.
 - Avoid rigid typesetting, corporate fonts, dense rectangular text boxes, long paragraphs, or perfectly aligned captions.
 
 ## Reference-energy target
@@ -54,6 +55,7 @@ Do not copy text from reference images. Write original captions that fit the sup
 - Captions should feel physically connected to the speaking object through a tail, arrow, pose, or nearby action mark.
 - Favor asymmetry and rhythm: one large phrase, one medium reaction, several tiny marks—not three identical labels.
 - Keep overlays handmade and spontaneous, but make all Chinese glyphs deterministic and exact.
+- Reject cream label cards, colored caption boxes, pill-shaped UI badges, and typography that resembles an app interface.
 
 ## Story-prop illustration
 

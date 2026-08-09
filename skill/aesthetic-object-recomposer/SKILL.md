@@ -29,7 +29,7 @@ Create the finished image whenever an image-editing or image-generation tool is 
 
 - A, B, and C must share the same canvas, crop, camera angle, lens perspective, object positions, scale, overlap, lighting, shadows, background, color grade, and depth of field.
 - B may add only faces, short limbs, tiny props, motion marks, sparkles, and very short decorative lettering.
-- C may add only planned captions, dialogue, arrows, brackets, subtle speech bubbles, lively emotion marks, and 1–2 small story-supporting illustrations placed beside or lightly attached to existing characters.
+- C may add only planned white handwritten captions, transparent white-outline speech bubbles, arrows, lively emotion marks, and 1–2 small story-supporting illustrations placed beside or lightly attached to existing characters.
 - B and C must not move, resize, replace, duplicate, remove, or restyle any photographed object.
 - Use approved A as B's source and approved B as C's source.
 - Name outputs clearly as `editorial`, `kawaii-clean`, and `kawaii-story`.
@@ -46,7 +46,7 @@ Create the finished image whenever an image-editing or image-generation tool is 
 - Use foreground, subject plane, and soft background to create three-layer depth.
 - Remove clutter only when it is not part of the protected inventory.
 - Do not show composition grids, dotted guides, labels, or explanatory text in the final image. The reference diagrams are planning tools only.
-- In Kawaii Clean mode, use sparse hand-drawn overlays. In Kawaii Story mode, let the photograph remain dominant: prefer small emotion symbols, then optional outline-style side illustrations, then text. Keep new illustration coverage around 3–6%; never cover product labels, food texture, or the hero silhouette.
+- In Kawaii Clean mode, use sparse hand-drawn overlays. In Kawaii Story mode, let the photograph remain dominant: use white hand-drawn lettering and transparent white bubble outlines, then small emotion symbols and optional side illustrations. Never use cream label cards or colored UI-like caption boxes. Keep new illustration coverage around 3–6%; never cover product labels, food texture, or the hero silhouette.
 
 ## Fidelity Guardrails
 
