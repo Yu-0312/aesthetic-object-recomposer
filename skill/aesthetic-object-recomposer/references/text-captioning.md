@@ -57,11 +57,18 @@ Do not copy text from reference images. Write original captions that fit the sup
 
 ## Story-prop illustration
 
+- Start with emotional shorthand: blush, sweat drop, question mark, surprise rays, sleepy `Z`, sparkle, heart, music note, or a tiny motion trail. These are preferred over literal props.
 - When the scene supports it, add 1–2 small illustrated props that turn the caption into an action: chef hat, spoon, fork, flag, headband, instrument, menu, alarm clock, shopping bag, or tiny costume accessory.
-- Attach every prop to an existing character or place it directly beside that character. The prop must explain the joke or action rather than act as unrelated decoration.
-- Match the existing doodle line weight, outline color, blush palette, and simplified perspective.
-- Keep prop coverage below 10% of the frame and never hide the photographed object's identifying surface, label, or food texture.
+- Attach a prop lightly to an existing character or place a separate mini illustration in adjacent negative space. Never paste a large colored shape across the photographed subject.
+- Match the existing doodle line weight, outline color, blush palette, lighting mood, and simplified perspective. Favor airy outline drawing with only 1–2 small color fills sampled from the photo.
+- Keep all new illustration coverage around 3–6% of the frame, with an absolute maximum of 8%, and never hide the photographed object's identifying surface, label, face, or food texture.
 - Do not add a full new photographed object. Story props are clearly hand-drawn overlays only.
+
+## Integration test
+
+- At thumbnail size, the photograph must read first and the new illustration second.
+- The overlay should feel removable without leaving a compositional hole; it supports the image but does not become the hero.
+- Reject oversized hats, utensils, badges, solid geometric stickers, or captions that sit on top of the food.
 
 ## Accuracy strategy
 

@@ -29,7 +29,7 @@ Create the finished image whenever an image-editing or image-generation tool is 
 
 - A, B, and C must share the same canvas, crop, camera angle, lens perspective, object positions, scale, overlap, lighting, shadows, background, color grade, and depth of field.
 - B may add only faces, short limbs, tiny props, motion marks, sparkles, and very short decorative lettering.
-- C may add only planned captions, dialogue, arrows, brackets, sticker-like outlines, speech bubbles, lively emphasis marks, and 1–2 small story-supporting illustrated props attached to existing characters.
+- C may add only planned captions, dialogue, arrows, brackets, subtle speech bubbles, lively emotion marks, and 1–2 small story-supporting illustrations placed beside or lightly attached to existing characters.
 - B and C must not move, resize, replace, duplicate, remove, or restyle any photographed object.
 - Use approved A as B's source and approved B as C's source.
 - Name outputs clearly as `editorial`, `kawaii-clean`, and `kawaii-story`.
@@ -46,7 +46,7 @@ Create the finished image whenever an image-editing or image-generation tool is 
 - Use foreground, subject plane, and soft background to create three-layer depth.
 - Remove clutter only when it is not part of the protected inventory.
 - Do not show composition grids, dotted guides, labels, or explanatory text in the final image. The reference diagrams are planning tools only.
-- In Kawaii Clean mode, use sparse hand-drawn overlays. In Kawaii Story mode, use a lively scrapbook rhythm with one hero caption, smaller reactions, colorful punctuation, and motion marks; never cover product labels, food texture, or the hero silhouette.
+- In Kawaii Clean mode, use sparse hand-drawn overlays. In Kawaii Story mode, let the photograph remain dominant: prefer small emotion symbols, then optional outline-style side illustrations, then text. Keep new illustration coverage around 3–6%; never cover product labels, food texture, or the hero silhouette.
 
 ## Fidelity Guardrails
 
@@ -71,6 +71,7 @@ Accept only when all major checks pass:
 - No grid, annotation, watermark, social-media UI, gibberish text, or unexpected object appears.
 - When Kawaii mode is selected, the face, limbs, and props feel attached to the intended object and the photograph remains dominant.
 - Version C uses readable, intentional captions with no gibberish, accidental text, or subject obstruction.
+- Version C's extra illustrations improve balance or storytelling without becoming large stickers or competing with the photographed hero.
 - All three images align perfectly when overlaid; only the intended doodles and captions differ.
 
 Correct only the failed dimension. Do not replace a successful arrangement wholesale.
