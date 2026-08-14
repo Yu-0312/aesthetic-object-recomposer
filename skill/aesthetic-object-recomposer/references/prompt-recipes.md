@@ -2,13 +2,21 @@
 
 Build prompts in this order: edit intent, protected inventory, composition, environment, light, camera, finish, exclusions.
 
-## Default three-version workflow
+## Output selection gate
 
-1. Generate **A — Editorial** with one of the photographic recipes below.
+1. Map **V2** to Editorial, **V3** to Kawaii Clean, and **V4** to Kawaii Story. If the user does not name a version, ask whether they want V2, V3, V4, selected combinations, or the full V2–V4 progression before generating.
+2. If the user selects V2 only, generate the photographic recipe and deliver V2 only.
+3. If the user selects V3 only, generate V2 silently from the original unless an approved V2 is supplied; then use that V2 as the immutable source for V3 and deliver V3 only.
+4. If the user selects V4 only, generate V2 and V3 silently unless an approved V3 is supplied; then use that V3 as the immutable source for V4 and deliver V4 only.
+5. For a selected combination, deliver only the named versions. For a full V2–V4 progression, deliver all three. Make an Original → V2 → V3 → V4 comparison board only when the user separately requests a board.
+
+## Dependency workflow
+
+1. Generate **V2 — Editorial** with one of the photographic recipes below.
 2. Confirm that the objects, composition, lighting, and crop pass the quality gate.
-3. Use A as the input image for **B — Kawaii** with the overlay-only recipe below.
-4. Use B as the input image for **C — Kawaii Story**. Default to the Hero Story recipe for playful social scenes; use the Light Story recipe only for an explicitly minimal or premium treatment.
-5. Compare all versions by overlay or rapid alternation. Outside illustrated and caption pixels, the scene must remain visually identical.
+3. Use V2 as the input image for **V3 — Kawaii Clean** with the overlay-only recipe below when V3 or V4 is needed.
+4. Use V3 as the input image for **V4 — Kawaii Story** when V4 is needed. Default to the Hero Story recipe for playful social scenes; use the Light Story recipe only for an explicitly minimal or premium treatment.
+5. Compare stages by overlay or rapid alternation whenever more than one stage is created. Outside illustrated and caption pixels, the scene must remain visually identical.
 
 ## Standard recomposition
 

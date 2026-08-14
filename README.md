@@ -49,7 +49,19 @@
 cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 ```
 
-使用時，先提供來源圖與需保留的物件特徵；skill 會先建立 Editorial，再以該成果建立 Kawaii Clean，最後由 Kawaii Clean 建立 Kawaii Story。除非使用者明確要求最小化處理，食物、飲料、桌面與共享餐點預設採用 Hero Story。
+## 選擇輸出版本
+
+原始照片視為第 1 版輸入。開始生成前，skill 會先詢問你要哪一個輸出版本；如果你沒有明確選擇，它不會直接開始生成。
+
+| 你的選擇 | 會交付的圖片 | 系統內部處理 |
+| --- | --- | --- |
+| **第 2 版**／Editorial | 乾淨的重組攝影成品 | 原始圖 → 第 2 版 |
+| **第 3 版**／Kawaii Clean | 只有 Q 版角色覆蓋的圖片 | 會先建立第 2 版作為底圖，但只交付第 3 版 |
+| **第 4 版**／Kawaii Story | 有 Hero Story 或 Light Story 文字敘事的圖片 | 會先建立第 2、3 版作為底圖，但只交付第 4 版 |
+| **指定組合**，例如 2 + 4 | 只交付你指定的版本 | 必要的中間底圖會在內部建立 |
+| **完整 2–4 推進組** | 第 2、3、4 版 | 依序建立並交付全部三個版本 |
+
+可以直接說「只要第 3 版」、「做第 4 版 Hero Story」、「輸出 2 + 4」，或「做完整推進組」。若你還需要一張 Original → Editorial → Kawaii → Kawaii Story 的四格比較圖，請另外指定「要比較圖」。除非使用者明確要求最小化處理，食物、飲料、桌面與共享餐點的第 4 版預設採用 Hero Story。
 
 ## Hero Story 準則
 

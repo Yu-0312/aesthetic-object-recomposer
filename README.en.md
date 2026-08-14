@@ -49,7 +49,19 @@ Copy the skill directory to the Codex skills directory, restart Codex, and invok
 cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 ```
 
-Provide a source image and specify the features that must be retained. The skill creates Editorial first, then Kawaii Clean from that approved image, then Kawaii Story from the approved Kawaii Clean image. Unless a user explicitly requests a minimal treatment, food, drinks, desktops, and shared meals use Hero Story.
+## Select an output version
+
+Treat the original photo as Version 1 input. Before generating, the skill asks which output you want; it does not begin generation until a version is chosen.
+
+| Your selection | Delivered image | Internal processing |
+| --- | --- | --- |
+| **Version 2** / Editorial | Clean recomposed lifestyle photograph | Original → V2 |
+| **Version 3** / Kawaii Clean | Character-overlay image only | Builds V2 as the base, then delivers V3 only |
+| **Version 4** / Kawaii Story | Hero Story or Light Story captioned image only | Builds V2 and V3 as bases, then delivers V4 only |
+| **Selected combination**, such as 2 + 4 | Only the named versions | Builds required intermediate bases internally |
+| **Full V2–V4 progression** | V2, V3, and V4 | Builds and delivers all three stages |
+
+You can say “Version 3 only,” “make Version 4 Hero Story,” “output 2 + 4,” or “make the full progression.” If you also need a four-panel Original → Editorial → Kawaii → Kawaii Story board, explicitly ask for a comparison board. Unless a minimal treatment is explicitly requested, Version 4 defaults to Hero Story for food, drinks, desktops, and shared meals.
 
 ## Hero Story direction
 

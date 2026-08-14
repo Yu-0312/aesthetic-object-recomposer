@@ -1,4 +1,4 @@
 interface:
   display_name: "Aesthetic Object Recomposer"
-  short_description: "Create editorial, kawaii, and captioned story variants"
-  default_prompt: "Use $aesthetic-object-recomposer to rearrange the objects in my photo, then deliver matched Editorial, Kawaii Clean, and captioned Kawaii Story versions."
+  short_description: "Create selectable editorial, kawaii, and story variants"
+  default_prompt: "Use $aesthetic-object-recomposer to rearrange the objects in my photo. First ask whether I want Version 2 Editorial, Version 3 Kawaii Clean, Version 4 Kawaii Story, selected combinations, or the full Version 2–4 progression."
