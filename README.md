@@ -33,6 +33,14 @@
 
 ![Breakfast Hero Story v2 progression](examples/breakfast-comparison-v2.png)
 
+### 共享餐桌
+
+![Shared meal Hero Story v2 progression](examples/shared-meal-comparison-v2.png)
+
+### 塔可炸物
+
+![Taco feast Hero Story v2 progression](examples/taco-comparison-v2.png)
+
 ## 使用方式
 
 將 skill 資料夾複製到 Codex skills 目錄後，重新開啟 Codex，即可透過 `$aesthetic-object-recomposer` 使用。
@@ -58,7 +66,9 @@ Hero Story 的主標應位於上方或其他乾淨留白，使用粗圓、白色
 │   ├── drink-laptop-comparison-v2.png
 │   ├── two-cups-comparison-v2.png
 │   ├── hotpot-comparison-v2.png
-│   └── breakfast-comparison-v2.png
+│   ├── breakfast-comparison-v2.png
+│   ├── shared-meal-comparison-v2.png
+│   └── taco-comparison-v2.png
 └── skill/
     └── aesthetic-object-recomposer/
         ├── SKILL.md

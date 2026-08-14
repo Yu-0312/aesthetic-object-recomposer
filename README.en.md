@@ -33,6 +33,14 @@ Every current example presents **Original → Editorial → Kawaii → Kawaii St
 
 ![Breakfast Hero Story v2 progression](examples/breakfast-comparison-v2.png)
 
+### Shared Meal
+
+![Shared meal Hero Story v2 progression](examples/shared-meal-comparison-v2.png)
+
+### Taco Feast
+
+![Taco feast Hero Story v2 progression](examples/taco-comparison-v2.png)
+
 ## Installation and use
 
 Copy the skill directory to the Codex skills directory, restart Codex, and invoke `$aesthetic-object-recomposer`.
@@ -58,7 +66,9 @@ Place the primary headline in upper or otherwise calm negative space. Use bold, 
 │   ├── drink-laptop-comparison-v2.png
 │   ├── two-cups-comparison-v2.png
 │   ├── hotpot-comparison-v2.png
-│   └── breakfast-comparison-v2.png
+│   ├── breakfast-comparison-v2.png
+│   ├── shared-meal-comparison-v2.png
+│   └── taco-comparison-v2.png
 └── skill/
     └── aesthetic-object-recomposer/
         ├── SKILL.md
