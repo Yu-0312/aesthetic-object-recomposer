@@ -11,7 +11,7 @@
 - 預設輸出一組相互配對的三張圖片：
   1. **Editorial**：乾淨、自然、具有窗光與雜誌感的網美攝影版。
   2. **Kawaii Clean**：直接在 Editorial 成品上加入 Q 版表情、短手腳與少量塗鴉。
-  3. **Kawaii Story**：沿用純 Q 版，再加入白色手寫字、透明白線氣泡、短中文旁白、情緒符號，以及與情節連動的小插畫。
+  3. **Kawaii Story**：沿用純 Q 版。對食物、飲料、桌面與共享餐點預設採用 **Hero Story**：一個醒目的白色手寫主標、1–2 個短反應文案、有機白線氣泡與暖色小裝飾；若明確要求極簡或高級感，才採用較克制的 **Light Story**。
 - 三個階段皆鎖定裁切、鏡位、物件位置、光線、陰影與景深，避免構圖漂移。
 - 精確中文優先使用後製排字，避免 AI 生成亂碼。
 - 自動避免假文字、浮空物件、重複餐點、過度橘色、HDR 與社群介面。
@@ -47,7 +47,7 @@ cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 3. 選擇適合的構圖與重排強度。
 4. 先生成乾淨的 Editorial 版本。
 5. 以 Editorial 圖片為底圖，只加入 Q 版 overlay。
-6. 以純 Q 版為底圖，加入活潑氣泡字、箭頭、旁白與少量角色道具插畫。
+6. 以純 Q 版為底圖。對活潑社群情境預設加入 Hero Story 主標、短反應文案、白線雲朵與非均勻手繪裝飾；僅在明確要求時改為極簡 Light Story。
 7. 檢查物件完整性、接觸陰影、景深、文字正確性與三張圖片的一致性。
 
 ## 前後對比
@@ -69,6 +69,28 @@ cp -R skill/aesthetic-object-recomposer ~/.codex/skills/
 ### 牛排早餐
 
 ![Breakfast comparison](examples/breakfast-comparison.png)
+
+## Hero Story v2 範例
+
+以下四張為新版 **Hero Story 完整推進圖**：每張固定呈現 **Original → Editorial → Kawaii → Kawaii Story** 四個階段；第四格保留既有攝影與 Q 版角色，並以一個醒目主標、短反應文案與白色／暖色手繪節奏，建立更明確的社群敘事感。
+
+### 飲料與筆電 — Hero Story v2
+
+![Drink and laptop Hero Story v2 progression](examples/drink-laptop-comparison-v2.png)
+
+### 雙杯 — Hero Story v2
+
+![Two cups Hero Story v2 progression](examples/two-cups-comparison-v2.png)
+
+### 火鍋餐桌 — Hero Story v2
+
+![Hotpot Hero Story v2 progression](examples/hotpot-comparison-v2.png)
+
+### 牛排早餐 — Hero Story v2
+
+![Breakfast Hero Story v2 progression](examples/breakfast-comparison-v2.png)
+
+## 更多前後對比
 
 ### 共享餐桌
 

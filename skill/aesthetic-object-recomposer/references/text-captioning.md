@@ -1,14 +1,16 @@
 # Kawaii Story Captioning
 
-Create version C as a caption-only pass over the approved Kawaii Clean image.
+Create version C as a caption-only pass over the approved Kawaii Clean image. Choose **Hero Story** for lively food, drink, desktop, snack-spread, and shared-meal images; choose **Light Story** only when a minimal or premium treatment is explicitly requested. Read [kawaii-story-hero.md](kawaii-story-hero.md) for Hero Story composition and prompting.
 
 ## Content hierarchy
 
-Use 1–3 caption groups:
+Use a clear three-level hierarchy.
 
-1. **Hero voice:** the main object's emotion, action, or complaint.
-2. **Supporting reaction:** a short response from one supporting object.
-3. **Scene note:** an optional tiny mood or action label.
+1. **Hero Story headline:** one energetic 4–8-character Chinese exclamation that creates thumbnail impact, such as `元氣早餐！`, `充電中！`, `一起吃吧！`, or `開動啦！`.
+2. **Supporting reaction:** one or two 3–7-character responses that connect a selected object to the headline.
+3. **Scene note:** an optional tiny mood or action label, such as `FOCUS!`, `YUM!`, a music note, or a short handwritten aside.
+
+For Light Story, omit the dominant headline and use one to three small caption groups instead.
 
 Examples:
 
@@ -23,11 +25,10 @@ Do not copy text from reference images. Write original captions that fit the sup
 
 ## Length and density
 
-- Chinese: 4–12 characters per group.
-- English: 1–5 words per group.
-- Use no more than 3 caption groups or 28 Chinese characters total.
-- Keep total text coverage below 16% of the frame.
-- Prefer one larger hero caption and one or two smaller reactions.
+- Hero Story: headline 4–8 Chinese characters; each supporting reaction 3–7 Chinese characters. Use one headline, one or two reactions, and an optional tiny scene note.
+- Light Story: Chinese 4–12 characters per group; English 1–5 words per group.
+- Keep the Hero Story text-and-mark overlay around 10–18% of the frame, never above 22%. Keep Light Story below 8%.
+- Prefer one large hero headline, one medium reaction, and one small note. Do not use three captions of equal size.
 
 ## Placement
 
@@ -40,8 +41,8 @@ Do not copy text from reference images. Write original captions that fit the sup
 ## Typography
 
 - Use lively hand-drawn scrapbook lettering with irregular baselines, playful rotation, and visibly varied character size.
-- Build a clear hierarchy: one bold comic-style hero phrase, one smaller handwritten reaction, and an optional tiny scene note.
-- Make white the dominant lettering and bubble color. Use thick white hand-drawn strokes with only a thin dark shadow or keyline for contrast.
+- In Hero Story, set the headline at roughly 20–30% of canvas width in bold, rounded comic-style lettering. Make it clearly larger than all reactions. In Light Story, keep all text secondary.
+- Make white the dominant lettering and bubble color. Use thick white hand-drawn strokes with a slim dark brown or charcoal keyline and soft light shadow for contrast.
 - Keep speech bubbles transparent: draw an irregular white outline around the text rather than placing text on a cream, colored, or solid rectangular sticker.
 - Use source-derived accent colors mainly for nearby character illustrations and tiny punctuation—not for the main caption fill.
 - Mix white bubble lettering, loose white handwritten notes, and compact white speech balloons while keeping the set visually coherent.
@@ -63,14 +64,14 @@ Do not copy text from reference images. Write original captions that fit the sup
 - When the scene supports it, add 1–2 small illustrated props that turn the caption into an action: chef hat, spoon, fork, flag, headband, instrument, menu, alarm clock, shopping bag, or tiny costume accessory.
 - Attach a prop lightly to an existing character or place a separate mini illustration in adjacent negative space. Never paste a large colored shape across the photographed subject.
 - Match the existing doodle line weight, outline color, blush palette, lighting mood, and simplified perspective. Favor airy outline drawing with only 1–2 small color fills sampled from the photo.
-- Keep all new illustration coverage around 3–6% of the frame, with an absolute maximum of 8%, and never hide the photographed object's identifying surface, label, face, or food texture.
+- Keep story-prop illustration coverage around 3–8% of the frame, even in Hero Story; the overall Hero Story overlay can reach 10–18% only because the headline and lettering are larger. Never hide the photographed object's identifying surface, label, face, or food texture.
 - Do not add a full new photographed object. Story props are clearly hand-drawn overlays only.
 
 ## Integration test
 
-- At thumbnail size, the photograph must read first and the new illustration second.
-- The overlay should feel removable without leaving a compositional hole; it supports the image but does not become the hero.
-- Reject oversized hats, utensils, badges, solid geometric stickers, or captions that sit on top of the food.
+- At thumbnail size, Hero Story must read as a photograph with a single lively headline and clear object characters; Light Story must read as a photograph first and an annotation layer second.
+- The overlay should feel removable without leaving a compositional hole, but Hero Story may deliberately own the clean upper-third negative space.
+- Reject oversized hats, utensils, badges, solid geometric stickers, rigid UI cards, or captions that sit on top of the food.
 
 ## Accuracy strategy
 
@@ -84,4 +85,5 @@ Do not copy text from reference images. Write original captions that fit the sup
 - Every caption is exact, legible, and clearly associated with one object.
 - Text adds personality or story rather than describing the obvious.
 - The approved Kawaii Clean image is otherwise unchanged.
-- The frame still reads first as a photograph, second as a character scene, and third as a captioned story.
+- Hero Story has one unmistakable headline, a readable caption hierarchy, and intentional clustered decorations. Light Story remains restrained by choice.
+- The frame still reads as a photographic scene with a coherent character story, not as a generic full-cartoon sticker sheet.

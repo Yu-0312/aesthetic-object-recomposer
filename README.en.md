@@ -11,7 +11,7 @@ Turn ordinary photos into polished Instagram-ready editorial images, then create
 - Produces a matched three-image set by default:
   1. **Editorial:** clean lifestyle photography with natural window light and magazine styling.
   2. **Kawaii Clean:** an overlay-only Q-style character treatment based directly on the Editorial result.
-  3. **Kawaii Story:** the clean character version plus bold white hand lettering, transparent white-outline speech bubbles, emotion marks, and small story-linked illustrations.
+  3. **Kawaii Story:** the clean character version with two routes. **Hero Story** is the default for playful food, drinks, desktops, and shared meals: one bold white handwritten headline, 1–2 short reactions, an organic white-outline cloud, and warm accent marks. Use the restrained **Light Story** route only when a minimal or premium treatment is explicitly requested.
 - Locks crop, camera, placement, lighting, shadows, background, and depth of field across all three images.
 - Uses deterministic post-production typesetting when exact Chinese text is required.
 - Guards against fake text, floating objects, duplicate food, excessive orange grading, HDR, watermarks, and social-media UI.
@@ -40,7 +40,7 @@ editorial lifestyle composition, then create a matched kawaii doodle version.
 3. Select recomposition strength and one dominant composition.
 4. Generate the clean Editorial image first.
 5. Use the approved Editorial image as the immutable base for Kawaii Clean.
-6. Use the approved Kawaii Clean image as the immutable base for lively captions and a few story-supporting doodle props.
+6. Use the approved Kawaii Clean image as the immutable base. Default to Hero Story for lively social scenes, with a clear headline, short reactions, white-outline cloud, and asymmetrically clustered hand-drawn marks; use Light Story only on request.
 7. Validate object fidelity, grounding, shadows, depth, text accuracy, and set consistency.
 
 ## Comparisons
@@ -56,6 +56,15 @@ Each example shows **Original → Editorial → Kawaii Clean → Kawaii Story**.
 ![Ramen night](examples/ramen-comparison.png)
 ![Curry rice](examples/curry-comparison.png)
 ![Ham and egg breakfast](examples/ham-breakfast-comparison.png)
+
+## Hero Story v2 examples
+
+The first four **Hero Story v2 progression boards** each present **Original → Editorial → Kawaii → Kawaii Story**. Their fourth panels retain the photographic and kawaii-clean base, then use one unmistakable headline, short supporting reactions, and white/warm-color hand-drawn rhythm for clearer social storytelling.
+
+![Drink and laptop Hero Story v2 progression](examples/drink-laptop-comparison-v2.png)
+![Two cups Hero Story v2 progression](examples/two-cups-comparison-v2.png)
+![Hotpot Hero Story v2 progression](examples/hotpot-comparison-v2.png)
+![Breakfast Hero Story v2 progression](examples/breakfast-comparison-v2.png)
 
 ## Notes
 
