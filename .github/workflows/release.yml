@@ -1,0 +1,26 @@
+name: Release skill package
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build zip from skill/
+        run: |
+          cd skill
+          zip -r -X ../aesthetic-object-recomposer.zip aesthetic-object-recomposer
+      - name: Attach to the GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" aesthetic-object-recomposer.zip \
+            --title "$GITHUB_REF_NAME" --generate-notes \
+          || gh release upload "$GITHUB_REF_NAME" aesthetic-object-recomposer.zip --clobber

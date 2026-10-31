@@ -19,27 +19,27 @@ Every current example presents **Original → Editorial → Kawaii → Kawaii St
 
 ### Drink + Laptop
 
-![Drink and laptop Hero Story v2 progression](examples/drink-laptop-comparison-v2.png)
+![Drink and laptop Hero Story v2 progression](examples/drink-laptop-comparison-v2.webp)
 
 ### Two Cups
 
-![Two cups Hero Story v2 progression](examples/two-cups-comparison-v2.png)
+![Two cups Hero Story v2 progression](examples/two-cups-comparison-v2.webp)
 
 ### Hotpot Table
 
-![Hotpot Hero Story v2 progression](examples/hotpot-comparison-v2.png)
+![Hotpot Hero Story v2 progression](examples/hotpot-comparison-v2.webp)
 
 ### Steak Breakfast
 
-![Breakfast Hero Story v2 progression](examples/breakfast-comparison-v2.png)
+![Breakfast Hero Story v2 progression](examples/breakfast-comparison-v2.webp)
 
 ### Shared Meal
 
-![Shared meal Hero Story v2 progression](examples/shared-meal-comparison-v2.png)
+![Shared meal Hero Story v2 progression](examples/shared-meal-comparison-v2.webp)
 
 ### Taco Feast
 
-![Taco feast Hero Story v2 progression](examples/taco-comparison-v2.png)
+![Taco feast Hero Story v2 progression](examples/taco-comparison-v2.webp)
 
 ## Installation and use
 
@@ -73,20 +73,22 @@ Place the primary headline in upper or otherwise calm negative space. Use bold, 
 .
 ├── README.md
 ├── README.en.md
-├── aesthetic-object-recomposer.zip
+├── .github/workflows/release.yml
 ├── examples/
-│   ├── drink-laptop-comparison-v2.png
-│   ├── two-cups-comparison-v2.png
-│   ├── hotpot-comparison-v2.png
-│   ├── breakfast-comparison-v2.png
-│   ├── shared-meal-comparison-v2.png
-│   └── taco-comparison-v2.png
+│   ├── drink-laptop-comparison-v2.webp
+│   ├── two-cups-comparison-v2.webp
+│   ├── hotpot-comparison-v2.webp
+│   ├── breakfast-comparison-v2.webp
+│   ├── shared-meal-comparison-v2.webp
+│   └── taco-comparison-v2.webp
 └── skill/
     └── aesthetic-object-recomposer/
         ├── SKILL.md
         └── references/
             └── kawaii-story-hero.md
 ```
+
+The packaged `aesthetic-object-recomposer.zip` is now attached to GitHub Releases: pushing a `v*` tag runs `.github/workflows/release.yml`, which builds it from `skill/`.
 
 ## Notes
 
